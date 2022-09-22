@@ -96,7 +96,7 @@ function M.get(config)
     Boolean = { fg = p.teal1 }, --  a boolean constant: TRUE, false
     Float = { fg = p.teal1 }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = p.blueGray3 }, -- (preferred) any variable name
+    Identifier = { fg = p.blueGray1 }, -- (preferred) any variable name
     Function = { fg = p.teal1 }, -- function name (also: methods for classes)
 
     Statement = { fg = p.text }, -- (preferred) any statement
@@ -113,7 +113,7 @@ function M.get(config)
     -- Macro         = { }, --    same as Define
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type = { fg = p.blueGray3 }, -- (preferred) int, long, char, etc.
+    Type = { fg = p.blueGray1 }, -- (preferred) int, long, char, etc.
     --[[ Structure = { fg = p.blueGray1 }, --  struct, union, enum, etc. ]]
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Typedef = { fg = p.blueGray1 }, --  A typedef
@@ -121,11 +121,11 @@ function M.get(config)
     Special = { fg = p.blueGray2 }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     Tag = { fg = p.text }, --    you can use CTRL-] on this
-    Delimiter = { fg = p.blueGray3 }, --  character that needs attention
-    SpecialComment = { fg = p.blueGray3 }, -- special things inside a comment
+    Delimiter = { fg = p.blueGray1 }, --  character that needs attention
+    SpecialComment = { fg = p.blueGray1 }, -- special things inside a comment
     -- Debug         = { }, --    debugging statements
 
-    Comment = { fg = p.blueGray3 }, -- (preferred) any special symbol
+    Comment = { fg = p.blueGray1 }, -- (preferred) any special symbol
 
     Underlined = { style = 'underline' }, -- (preferred) text that stands out, HTML links
     Bold = { style = 'bold' },
