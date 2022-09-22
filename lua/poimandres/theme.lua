@@ -22,6 +22,7 @@ function M.get(config)
     CurSearch = { link = 'IncSearch' },
     -- Cursor = {},
     CursorColumn = { bg = p.background1 },
+    CursorHold = { fg = p.blueGray1 },
     -- CursorIM = {},
     CursorLine = { bg = p.background1 },
     CursorLineNr = { fg = p.text },
